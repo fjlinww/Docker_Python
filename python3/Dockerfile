@@ -1,7 +1,7 @@
 FROM python:3
 
 #libgl1-mesa-glx for opencv-python
-RUN apt-get update && apt-get install -y nano libgl1-mesa-glx
+RUN apt-get update && apt-get install -y nano cmake libgl1-mesa-glx
 
 WORKDIR /usr/src/app
 

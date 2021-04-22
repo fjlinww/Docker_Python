@@ -1,3 +1,4 @@
+requests
 opencv-python
 face_recognition
 Click>=6.0
